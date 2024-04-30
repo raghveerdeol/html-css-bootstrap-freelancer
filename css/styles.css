@@ -1,0 +1,15 @@
+body{
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+.bg_aqua{
+    background-color: #1abc9c;
+}
+.f_white{
+    color: white;;
+}
+.uppercase{
+    text-transform: uppercase;
+}
