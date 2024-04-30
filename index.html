@@ -9,7 +9,27 @@
 </head>
 <body>
     <header>
-        <nav></nav>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark uppercase">
+                <div class="container">
+                    <a class="navbar-brand " href="#">start bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse me-auto justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
     </header>
 
     <main class="text-center">
@@ -31,7 +51,7 @@
             <section class="container px-5 uppercase">
                 <div class="row">
                     <div class="col-12">
-                        <h2>portfolio</h2>
+                        <h2 class="pt-3">portfolio</h2>
                     </div>
                     <div class="col-12">
                         icons
@@ -58,13 +78,15 @@
                 </div>
             </section>
             <!-- about -->
-            <section class="container bg_aqua">
+            <div class="container-fluide px-5 bg_aqua">
                 <div class="row">
                     <div class="col-12">
-                        about
+                        <h2>about</h2>
                     </div>
                     <div class="col-12">
-                        icons
+                        <div></div>
+                        <i class="fa-solid fa-star"></i>
+                        <div></div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ratione sed libero, totam quidem voluptate amet distinctio quisquam fugiat inventore pariatur fugit quo iste esse voluptatem quod laborum explicabo aliquam.</p>
@@ -76,14 +98,21 @@
                         <button>download</button>
                     </div>
                 </div>
-            </section>
+            </div>
             <!-- contact me  -->
             <section class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repudiandae dolor quis earum corporis quam officia nemo velit sequi provident alias voluptatum, ab ut temporibus sed expedita quae fugiat minus.</p>
+                        <h2>contact me</h2>
                     </div>
                 </div>
+                <!-- star  -->
+                <div>
+                    <hr>
+                    <i class="fa-solid fa-star"></i>
+                    <hr>
+                </div>
+
             </section>
     </main>
 
