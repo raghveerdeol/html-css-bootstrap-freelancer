@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark uppercase">
+            <nav class="navbar navbar-expand-lg navbar-dark bg_blue_dark uppercase">
                 <div class="container">
                     <a class="navbar-brand " href="#">start bootstrap</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
     </header>
 
     <main class="text-center">
-            <header class="container-fluide mb-3 bg_aqua f_white uppercase">
+            <header class="container-fluide px-5 py-3 mb-3 bg_aqua f_white uppercase">
                 <div class="row justify-content-center">
                     <div class="col-12 col-sm-4 col-md-2">
                         <img src="./img/avatar.svg" alt="profile img">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </header>
-            <section class="container px-5 uppercase">
+            <section class="container px-5 py-3 uppercase">
                 <div class="row">
                     <div class="col-12">
                         <h2 class="pt-3">portfolio</h2>
@@ -78,29 +78,31 @@
                 </div>
             </section>
             <!-- about -->
-            <div class="container-fluide px-5 bg_aqua">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>about</h2>
-                    </div>
-                    <div class="col-12">
-                        <div></div>
-                        <i class="fa-solid fa-star"></i>
-                        <div></div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ratione sed libero, totam quidem voluptate amet distinctio quisquam fugiat inventore pariatur fugit quo iste esse voluptatem quod laborum explicabo aliquam.</p>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus, harum voluptate incidunt quia vel at provident dolore quaerat neque dolores aspernatur officiis iure! Officia dolorem doloribus repudiandae veniam tempore?</p>
-                    </div>
-                    <div class="col-12">
-                        <button>download</button>
+            <div class="bg_aqua">
+                <div class="container f_white px-3 py-3">
+                    <div class="row m-auto" id="about">
+                        <div class="col-12">
+                            <h2>about</h2>
+                        </div>
+                        <div class="col-12">
+                            <div></div>
+                            <i class="fa-solid fa-star"></i>
+                            <div></div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ratione sed libero, totam quidem voluptate amet distinctio quisquam fugiat inventore pariatur fugit quo iste esse voluptatem quod laborum explicabo aliquam.</p>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus, harum voluptate incidunt quia vel at provident dolore quaerat neque dolores aspernatur officiis iure! Officia dolorem doloribus repudiandae veniam tempore?</p>
+                        </div>
+                        <div class="col-12 py-3">
+                            <button class="rounded-3 f_white" >Download</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- contact me  -->
-            <section class="container">
+            <section class="container px-5 py-3">
                 <div class="row">
                     <div class="col-12">
                         <h2>contact me</h2>
@@ -112,12 +114,18 @@
                     <i class="fa-solid fa-star"></i>
                     <hr>
                 </div>
-
+                <form action="" class="row">
+                    <input class="col-12" type="text" name="name" id="name" placeholder="Name" required>
+                    <input class="col-12" type="email" name="email" id="email" placeholder="Email Address" required>
+                    <input class="col-12" type="number" name="number" id="phone-number" placeholder="Phone number" required>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                    <input class="col-2 col-md-1 rounded-3 f_white send" type="submit" value="Send">
+                </form>
             </section>
     </main>
 
     <footer>
-        <section class="container">
+        <section class="container px-5 py-3">
             <div class="row">
                 <div class="col-12 col-sm-4">
                     <h3>location</h3>
